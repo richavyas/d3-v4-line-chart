@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "rollup -c | uglifyjs -c -m > d3.min.js"
+  },
+  "dependencies": {
+    "d3-shape": "1.0.1",
+    "d3-scale": "1.0.2",
+    "d3-axis": "1.0.1",
+    "d3-time-format": "2.0.1",
+    "d3-selection": "1.0.1",
+    "d3-request": "1.0.1",
+    "d3-array": "1.0.0",
+    "rollup": "0.34.3",
+    "rollup-plugin-node-resolve": "2.0.0",
+    "uglify-js": "^2.6.1"
+  }
+}
